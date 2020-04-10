@@ -1,5 +1,5 @@
 library(shiny)
-source("C:/UZYTKI/DATA SCIENCE/Cap_SwiftKey/WordPredictApp/Cap_02_Support functions file.R")
+source("Cap_02_Support functions file.R")
 
 shinyServer(
     function(input, output) {

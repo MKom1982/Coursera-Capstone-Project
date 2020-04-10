@@ -7,12 +7,10 @@ annot_tok_sent <- Maxent_Sent_Token_Annotator()
 annot_tok_word <- Maxent_Word_Token_Annotator()
 annot_tag_posi <- Maxent_POS_Tag_Annotator()
 
-setwd("C:/UZYTKI/DATA SCIENCE/Cap_SwiftKey/final/en_US/")
-
-uni_gram_dt <- readRDS("uni_gram_dt.rds")
-bii_gram_dt <- readRDS("bii_gram_dt.rds")
-tri_gram_dt <- readRDS("tri_gram_dt.rds")
-ban_words <- readRDS("ban_words.rds")
+uni_gram_dt <- readRDS("data/uni_gram_dt.rds")
+bii_gram_dt <- readRDS("data/bii_gram_dt.rds")
+tri_gram_dt <- readRDS("data/tri_gram_dt.rds")
+ban_words <- readRDS("data/ban_words.rds")
 
 txt_clr <- function(text) {
     txt_in <- tolower(text)    
