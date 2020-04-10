@@ -34,13 +34,13 @@ shinyUI(navbarPage("Coursera Data Science Capstone Project",
                                 column(6,     
                                        tags$span(style="color:blue",("This app was built as a part of Capstone project of Coursera Data Science Course."),
                                                  tags$p("If you would like to learn more about used data, please check this ", tags$a(href = "https://rpubs.com/MKomisarz/CCP_W2R", " report"),", where you can find some explanatory analysis of the data."),
-                                                 tags$p("Application and its way of working is presented " , tags$a(href = "http://rpubs.com/MNidhi/FinalPresentation", "here",".")),
+                                                 tags$p("Application and its way of working is presented " , tags$a(href = "https://rpubs.com/MKomisarz/WPAP", "here",".")),
                                                  tags$p("Please be informed that due to very high RAM and disk space usage when creating ngrams, I have 
                                                         limited their level up to trigrams, despite of initially assumed creation of ngrams of level 4 or even 5. 
                                                         Also, for the app database I have taken samples of 5% of original files. Therefore, you may 
                                                         feel that word prediction is not so good as you would expect it to be.
                                                         In such cases, I am counting on your understanding :)"),
-                                                 tags$p("Files with R code & source files used for work predicting are uploaded to " , tags$a(href = "https://github.com/Nidhi-M/Word-Prediction-App", "GitHub"),"."),
+                                                 tags$p("Files with R code & source files used for work predicting are uploaded to " , tags$a(href = "https://github.com/MKom1982/Coursera-Capstone-Project", "GitHub"),"."),
                                        )))),
                 tags$br()
 )
