@@ -5,7 +5,11 @@ For this edition of the Coursera Data Science Specialization from Johns Hopkins 
 Repository contains the following files/folders:
 
 README.md: This readme.
+
 Cap_01_data_load&proc.R: Loading of source files, their initial cleaning, preparing the n-grams.
+
 ui.R, server.R, Cap_02_Support functions file.R: Shiny application
+
 Capstone_Presentation.Rpres: R presentation file describing the application.
+
 Pres_UI: Image for R presentation.
